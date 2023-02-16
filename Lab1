@@ -1,1 +1,15 @@
-Lab1
+#!/usr/bin/env python3
+
+from datetime import date
+
+def calculate_age():
+    name = input("What is your name? ")
+    birth_year = int(input("What year were you born? "))
+    today = date.today()
+    age = today.year - birth_year
+    print(f"{name}, you are {age} years old.")
+    
+def helloWorld():
+   print('Hello World')
+
+helloWorld()
